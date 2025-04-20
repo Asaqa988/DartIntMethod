@@ -5,6 +5,8 @@ void main() {
 
   double myhighest = -171.4;
 
+  int myyear = 1993;
+
   print(myname[0].toUpperCase());
 
   print(myhighest.floor());
@@ -13,4 +15,7 @@ void main() {
   print(myhighest.isNegative);
 
   print(myhighest.abs());
+
+  int myageAfter10YEar = myage + 10;
+  print("my age after 10 years is $myageAfter10YEar");
 }
